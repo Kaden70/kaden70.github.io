@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kaden’s Plant Defense Lab</title>
+	<style>
+		body {
+			background-image: url("C:/Users/khays8/Desktop/website/checkered_lawn.webp");
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+		h1 {
+			font-family: "Consolas";
+			text-align: center;
+			font-size: 100px;
+		}
+		h2 {
+			font-family: "Consolas";
+		}
+		div {
+			background_color: lightgray;
+			border: 4px solid black;
+		}
+		span {
+			display: inline-block;
+			background_color: 90ee90;
+			border: 2px solid black;
+		}
+		.colum {
+			display: grid;
+			grid-template-columns: 1fr, 1fr;
+			grid-template-rows: auto;
+			gap: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1><span>Kaden’s Plant Defense Lab</span></h1>
+	<p>
+		I want to engineer plants to their fullest potential, so my goal is to develop real life plants featured in the 
+		hit game "Plants vs. Zombies." You will be able to grow these plants and they can keep you company and even
+		defend your property from robbers, zombies, or anything else.
+	</p>
+	<h1 style="font-size: 70px;">Plants<h1>
+	<div class="colum">
+		<div>
+			<h2>Peashooter</h2>
+			<p>A modified pea plant that shoots enlarged peas. Good against any intruder.</p>
+			<img src="https://cdna.artstation.com/p/assets/images/images/029/879/912/large/jonas-peashooter.jpg?1598914901">
+		</div>
+	</div>
+</body>
+</html>
